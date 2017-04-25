@@ -1,0 +1,20 @@
+{
+  "name": "subscriptions",
+  "version": "1.0.0",
+  "description": "The subsctiption module for Rocket Shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "npm run test -- --watch"
+  },
+  "author": "TG",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.3.0",
+    "moment": "^2.18.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "sinon": "^2.1.0"
+  }
+}
